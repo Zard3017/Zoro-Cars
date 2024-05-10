@@ -1,21 +1,23 @@
 .topnav{
-    color:azure;
+    color:white;
     text-decoration: none;
-    float: left;
+    float:none;
     display: block;
-    padding: 14px 16px;
+    padding: 14px 30px;
     text-align: left;
-    background-color: antiquewhite;
+    background-color: white;
 }
 .topnav a:hover{
     color: #2b2b2bd0;
-    background-color:azure;
+    background-color:white;
     text-decoration: none;
 }
 body{
-    background-color: antiquewhite;
+    background-color: white;
     color: black;
-    font-style: oblique;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     display: flex;
@@ -92,103 +94,57 @@ header a ion-icon {
 color: #000;
 background-color: #000;
 }
-#aa-footer {
-    background-color: #222;
-    display: inline;
-    float: left;
-    width: 100%;
-  }
-  #aa-footer .aa-footer-top {
-    display: inline;
-    float: left;
-    padding: 50px 0;
-    width: 100%;
-    min-height: 100px;
-  }
-  #aa-footer .aa-footer-top .aa-footer-top-area {
-    display: inline;
-    float: left;
-    width: 100%;
-  }
-  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget {
-    display: block;
-  }
-  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget h3 {
-    color: #fff;
-  }
-  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a {
-    color: #888;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a:hover, #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a:focus {
-    color: #fff;
-  }
-  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p {
-    margin-bottom: 5px;
-    color: #888;
-  }
-  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p span {
-    margin-right: 5px;
-  }
-  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-social a {
-    border: 1px solid #888;
-    color: #888;
-    display: inline-block;
-    font-size: 18px;
-    margin-right: 8px;
-    padding: 2px 0;
+.wrapper{
+  padding: 5px;
+  max-width: 960px;
+  width: 95%;
+  margin: 20px auto;
+}
+header{
+    padding: 0 15px;
     text-align: center;
-    width: 35px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-  #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-social a:hover {
-    color: #fff;
-    border-color: #fff;
-  }
-  #aa-footer .aa-footer-bottom {
-    border-top: 1px solid #333;
-    display: inline;
-    float: left;
-    padding: 15px 0;
-    width: 100%;
-  }
-  #aa-footer .aa-footer-bottom .aa-footer-bottom-area {
-    display: inline;
-    float: left;
-    width: 100%;
-  }
-  #aa-footer .aa-footer-bottom .aa-footer-bottom-area > p {
-    color: #888;
-    display: inline-block;
-    float: left;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin-bottom: 0;
-  }
-  #aa-footer .aa-footer-bottom .aa-footer-bottom-area > p a {
-    color: #888;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-  #aa-footer .aa-footer-bottom .aa-footer-bottom-area .aa-footer-payment {
-    float: right;
-  }
-  #aa-footer .aa-footer-bottom .aa-footer-bottom-area .aa-footer-payment span {
-    color: #888;
-    margin-left: 8px;
-  }
-  #aa-footer .aa-footer-bottom .aa-footer-bottom-area .aa-footer-payment span:hover {
-    color: #fff;
-  }
+    font-size: 21px;
+    color: aliceblue;
+}
+.columns{
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+    margin: 5px 0;
+
+}
+.column{
+    flex: 1;
+    border: 1px solid #667;
+    margin: 2px;
+    padding: 10px;
+    background: #3af4d5;
+    transition: 0.3s;
+}
+.column:first-child{
+    margin-left: 0;
+    background: antiquewhite;
+}
+.column:last-child{
+    margin-left: 0;
+    background: antiquewhite;
+}
+.column:nth-child(2){
+    margin-left: 0;
+    background: antiquewhite;
+}
+@media screen and(max-width:980px) {
+    .columns .column{
+        margin-bottom: 5px;
+        flex-basis: 40%;
+
+    }
+    .columns .column:last-child{
+        flex-basis: 100%;
+        margin: 0;
+    }
+    .columns .column:nth-child(2){
+        margin-right: 0;
+    }
+}
+
