@@ -10,3 +10,16 @@
     font-weight: 600;
     position: relative;
 }
+.container h1::after{
+    content: '';
+    background: gold;
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+
+
+}
