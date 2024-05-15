@@ -3,3 +3,10 @@
     height: 100vh;
     padding: 0 8%;
 }
+.container h1{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 60px;
+    font-weight: 600;
+    position: relative;
+}
