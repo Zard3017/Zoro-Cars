@@ -31,7 +31,7 @@
 
 }
 .row{
-    display: -ms-grid;
+    display: grid;
     grid-template-columns: repeat(auto,minmax(250px,1fr));
     grid-gap: 30px;
 
