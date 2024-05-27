@@ -1,0 +1,19 @@
+
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact.content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact.content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: azure;
+}
