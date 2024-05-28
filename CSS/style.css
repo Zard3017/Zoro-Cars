@@ -1,6 +1,7 @@
 
 
 
+
 .topnav{
     color:white;
     text-decoration: none;
@@ -67,6 +68,7 @@ display: flex;
     transition-duration: 1s;
     background-color: rgb(243, 168, 7);
 }
+
 #input{
     height: 30px;
     width: 300px;
@@ -89,9 +91,8 @@ ion-icon{
 ion-icon:hover{
     cursor: pointer;
 }
-.search a{
-    display: flex;
-}
+
+
 header a ion-icon {
     position:relative;
     right: 3px;
