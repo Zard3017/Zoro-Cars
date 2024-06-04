@@ -6,8 +6,32 @@
     <title>FAQs|Aldair</title>
     <link rel="icon" href="images/Nuestro Nuevo Logo !.jpeg">
     <link rel="stylesheet" href="CSS/style.css">
+    <style>
+      .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #555;
+      }
+      
+      .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+      </style>
 </head>
-<body background="images/0dfc1fdf-a3cd-4ad3-980d-e227c82d15a6.jpeg">
+<body >
     <header>
         <div class="logo"><a href="#">Aldair</a>
         </div>
@@ -15,10 +39,7 @@
             <a href="#">
                 <ion-icon name="close"class="close"> </ion-icon>
             </a>
-
-           
         </div>
-       
         <div class="heading">
             <ul>
                 <li><a  href="index.html" class="under">Home</a>  </li>
@@ -26,16 +47,9 @@
                 <li><a   href="vehicles.html"  class="under">Vehicles</a>  </li>             
                 <li><a   href="design.html" class="under">Design</a>  </li>
                 <li><a    href="FAQs.html" class="under">FAQ</a></li>
-                <li><a   href="contact.html" class="under">Contact Us</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Account</a>
-                    <div class="dropdown-content">
-                      <a href="login.html">Login</a>
-                      <a href="login.html">Sign Up</a>
-                    </div>
-                  </li>
-                
+                <li><a   href="contact.html" class="under">Contact Us</a></li>  
             </ul>
+
         </div>
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
@@ -47,15 +61,28 @@
           </nav>
     </header>
     
-    <h1 style="text-align: center;">Digital Extras</h1>
-    <h2 style="text-align: center;">Enhancing our vehicles to become, more intelligent and more human</h2><br>
-     <h3>Features</h3>
+    <button type="button" class="collapsible">Do you sell electric vehicles?</button>
+<div class="content">
+  <p> Our inventory will vary, but we currently don't have a selection available. 
+    If this changes, we can help you find what you are looking for. Contact us today to see how we can help!</p>
+</div>
 
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
 
-    <p style="font-size: x-large;">Make driving your Aldair a truly personal experience: unlock your personal profile with a PIN, your finger print or even your face.
-         And immediately load preferences like your favorite radio station, ambient lighting or even interface style.</p>
-
-         <p style="font-size: x-large;">Connect your smartphone with your vehicle. The Aldair App helps you keep an eye on relevant vehicle data, 
-            acts as your remote control and makes navigation easier and faster.</p>
 </body>
 </html>
