@@ -49,7 +49,7 @@ display: flex;
     list-style: none;
 }
 .heading ul li a {
-    margin: 17px;
+    margin: 5px;
     text-decoration: none;
     color: black;
     font-weight: 500;
