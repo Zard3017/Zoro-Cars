@@ -77,12 +77,12 @@ include_once("template/links.php");
 
 $servername = "localhost"; 
 $username = "root";  
-$password = ""; 
+$password = " "; 
 $database = "test";
   
 // Creating a connection 
 $conn = new mysqli($servername,  
-            $username, $password,$database); 
+            $username, $password,); 
   
 // Check connection 
 if ($conn->connect_error) { 
