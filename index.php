@@ -1,8 +1,10 @@
 <?php 
 include_once ("template/nav.php");
 include_once("template/links.php"); 
-    
+   
+
 ?>
+
   
  
              <title>Aldair</title>

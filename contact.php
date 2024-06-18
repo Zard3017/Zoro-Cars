@@ -1,11 +1,14 @@
 <?php 
 include_once ("template/nav.php");
 include_once("template/links.php"); 
+
     
 ?>
   
    
-
+  
+    <link rel="icon" href="images/Nuestro Nuevo Logo !.jpeg">
+    <link rel="stylesheet" href="CSS/contact.css">
     <section class="contact">
         <div class="content">
             <h2>Have a question? We'd love to hear from you!</h2>
@@ -38,24 +41,24 @@ include_once("template/links.php");
             <div class="icon"></i></div>
             <div class="text">
             <h3>Email</h3>
-            <p>aldaircooperation@gmail.com</p>
+            <p>aldairsupport@gmail.com</p>
         
         </div>
     </div>
   
  <div class="contactForm">
-    <form action="">
+    <form action="connect.php" method = "post">
         <h2>Send us a message</h2>
         <div class="inputBox">
-            <input type="text" name="" required="required">
+            <input type="text" name="fullname" required="required">
             <span>Full Name</span>
         </div>
         <div class="inputBox">
-            <input type="text" name="" required="required">
+            <input type="text" name="email" required="required">
             <span>Email</span>
         </div>
         <div class="inputBox">
-            <textarea name="" required="required" id=""></textarea>
+            <textarea name="message" required="required" id=""></textarea>
             <span>Type your message...</span>
         </div>
         <div class="inputBox">
@@ -68,6 +71,27 @@ include_once("template/links.php");
      </div>
 
     </section>
+
+
+    <?php 
+
+$servername = "localhost"; 
+$username = "root";  
+$password = ""; 
+$database = "test";
+  
+// Creating a connection 
+$conn = new mysqli($servername,  
+            $username, $password,$database); 
+  
+// Check connection 
+if ($conn->connect_error) { 
+    die("Connection failure: " 
+        . $conn->connect_error); 
+}  
+?>
+
+
     
 
     
