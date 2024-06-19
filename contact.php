@@ -73,25 +73,27 @@ include_once("template/links.php");
     </section>
 
 
-    <?php 
+ 
+    <?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$db_name="contactus";
 
-$servername = "localhost"; 
-$username = "root";  
-$password = " "; 
-$database = "test";
-  
-// Creating a connection 
-$conn = new mysqli($servername,  
-            $username, $password,); 
-  
-// Check connection 
-if ($conn->connect_error) { 
-    die("Connection failure: " 
-        . $conn->connect_error); 
-}  
+$fullname="fullname";
+$email="email";
+$message="message";
+$ID="UserID";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password ,$db_name);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
 ?>
-
-
     
 
     
