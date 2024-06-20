@@ -4,6 +4,50 @@ include_once("template/links.php");
 
     
 ?>
+
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$db_name="contactus";
+
+$fullname="fullname";
+$email="email";
+$message="message";
+$ID="UserID";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password ,$db_name);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+
+
+//insert data to db
+
+
+if(isset($_POST['Send'])){
+    $fullname = mysqli_real_escape_string($conn, ($_POST["fullname"]));
+    $email = mysqli_real_escape_string($conn, ($_POST["email"]));
+    $message = mysqli_real_escape_string($conn, ($_POST["message"]));
+}
+
+$sql = "INSERT INTO Information (fullname,email,message)
+VALUES('$fullname','$email','$message')";
+
+if ($conn->query($sql) === TRUE) {
+    echo "New record created successfully";
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
+  
+  $conn->close();
+?>
+
+
   
    
   
@@ -47,7 +91,7 @@ include_once("template/links.php");
     </div>
   
  <div class="contactForm">
-    <form action="connect.php" method = "post">
+    <form  method = "POST">
         <h2>Send us a message</h2>
         <div class="inputBox">
             <input type="text" name="fullname" required="required">
@@ -62,7 +106,7 @@ include_once("template/links.php");
             <span>Type your message...</span>
         </div>
         <div class="inputBox">
-            <input type="submit" name=""  value="Send">
+            <input type="submit" name="Send"  value="Send">
             
         </div>
 
@@ -74,26 +118,7 @@ include_once("template/links.php");
 
 
  
-    <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db_name="contactus";
-
-$fullname="fullname";
-$email="email";
-$message="message";
-$ID="UserID";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password ,$db_name);
-
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
-?>
+  
     
 
     
