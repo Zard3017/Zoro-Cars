@@ -1,11 +1,17 @@
+
+
 <?php 
 include_once ("template/nav.php");
 include_once("template/links.php"); 
+
 
     
 ?>
 
 <?php
+
+
+
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -52,17 +58,26 @@ if ($conn->query($sql) === TRUE) {
 
   
    
-  
+<head>
+    <style>
+        body {
+            background-image: url('images/pexels-hyundai.jpg');
+            background-size: cover; 
+            background-position: center; 
+            color:white;
+        }
+    </style>
+</head>
     <link rel="icon" href="images/Nuestro Nuevo Logo !.jpeg">
     <link rel="stylesheet" href="CSS/contact.css">
     <section class="contact">
-        <div class="content">
+        <div class="content" >
             <h2>Have a question? We'd love to hear from you!</h2>
             <p>Fill out the contact form below or reach out to us via phone or email.  We typically respond to 
                 inquiries within 24 hours.</p>
         </div>
 
-        <div class="contactcontainer">
+        <div class="contactcontainer" >
             <div class="contactInfo">
 
                 <div class="box">
