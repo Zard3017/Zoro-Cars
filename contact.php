@@ -29,13 +29,15 @@ echo "Connected successfully";
 //insert data to db
 
 
+
+
 if(isset($_POST['Send'])){
     $fullname = mysqli_real_escape_string($conn, ($_POST["fullname"]));
     $email = mysqli_real_escape_string($conn, ($_POST["email"]));
     $message = mysqli_real_escape_string($conn, ($_POST["message"]));
 }
 
-$sql = "INSERT INTO Information (fullname,email,message)
+$sql = "INSERT INTO registration (fullname,email,message)
 VALUES('$fullname','$email','$message')";
 
 if ($conn->query($sql) === TRUE) {
