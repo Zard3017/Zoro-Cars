@@ -207,27 +207,17 @@ footer {
     color: #ccc;
   }
   
-  footer .social-media {
-    margin-top: 20px;
-    text-align: center;
-  }
   
-  footer .social-media li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  footer .social-media i {
-    font-size: 24px;
-    color: #fff;
-  }
-  
-  footer .social-media i:hover {
-    color: #ccc;
-  }
   
   footer p {
     margin-bottom: 10px;
     font-size: 14px;
     color: #ccc;
+  }
+  .introtext{
+    padding: auto;
+    margin: 5px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
   }

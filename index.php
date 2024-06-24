@@ -6,6 +6,11 @@ include_once("template/links.php");
 
 ?>
 
+
+<div class="introtext">
+  <h2>Your number one shop for high end luxury watches</h2>
+
+</div>
   
  
              <title>Aldair</title>
