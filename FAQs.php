@@ -72,3 +72,7 @@ include_once("template/links.php");
 </div>
 
 <?php include_once("template/dropdown.php");?>
+<?php
+             include_once("template/footer.php")
+             ?>
+
