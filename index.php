@@ -5,6 +5,14 @@ include_once("template/links.php");
    
 
 ?>
+<head>
+  <style>
+    .introtext{
+      text-align: center;
+      border-radius: 50px;
+    }
+  </style>
+</head>
 
 
 <div class="introtext">
