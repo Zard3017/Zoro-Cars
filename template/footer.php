@@ -37,11 +37,7 @@
     <div class="row">
       <div class="col-md-12">
         <p>&copy; 2023 Car Selling Website. All Rights Reserved.</p>
-        <ul class="social-media">
-          <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
-        </ul>
+        
       </div>
     </div>
   </div>
