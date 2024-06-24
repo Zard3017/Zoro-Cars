@@ -10,6 +10,8 @@ include_once("template/links.php");
     .introtext{
       text-align: center;
       border-radius: 50px;
+      border-color: gray;
+      background-color: blue;
     }
   </style>
 </head>
