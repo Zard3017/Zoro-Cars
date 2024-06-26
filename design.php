@@ -47,3 +47,7 @@
            
 </body>
 </html>
+
+<?php
+ include_once("template/footer.php")
+    ?>
