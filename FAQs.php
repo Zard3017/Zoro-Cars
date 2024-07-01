@@ -60,29 +60,29 @@ include_once("template/links.php");
 </p>
 </div>
 
-<button type="button" class="collapsible"></button>
+<button type="button" class="collapsible">What fees should I consider when buying a car?</button>
 <div class="content">
   <p> If you're purchasing a used car, some fees to consider include:  
 
-1.Taxes 
-2.Title and registration fees 
-3.Emissions testing and/or state inspection fees 
-4.Transfer fees 
+1.Taxes <br>
+2.Title and registration fees <br>
+3.Emissions testing and/or state inspection fees <br>
+4.Transfer fees <br>
 5.Documentation fees, which is a fee from the dealership to process the car sale. The documentation fee is known by different names in different states. The documentation fee may also be referred to as an administrative fee, dealer application processing fee,
  dealer conveyance fee, dealer documentary preparation service fee, dealer documentary service fee, dealer processing charge, dealer transfer service fee, 
  delivery and handling fee, document preparation fee, document process charge, documentary fee, documentary preparation fee, documentary service, documentary service fee, 
  documentary service charge, documentation & compliance fee, processing fee, processing service fee and/or service fee. <br><br>
 
-If you’re purchasing a new car, you might incur those fees as well, and will need to consider the following additional fees . You will not encounter these additional new car fees when purchasing a used vehicle from Enterprise Car Sales. 
+If you’re purchasing a new car, you might incur those fees as well, and will need to consider the following additional fees . You will not encounter these additional new car fees when purchasing a used vehicle from Enterprise Car Sales. <br>
 
-1.Destination fees 
-2.Car dealer advertising fees 
-3.Dealer preparation fees 
-4.Additional transportation or freight fees 
-5.Extended warranty fees 
-6.Maintenance plan fees 
-7.V.I.N. etching fees 
-8.Financing fees, such as leasing charges 
+1.Destination fees <br>
+2.Car dealer advertising fees <br>
+3.Dealer preparation fees <br>
+4.Additional transportation or freight fees <br>
+5.Extended warranty fees <br>
+6.Maintenance plan fees <br>
+7.V.I.N. etching fees <br>
+8.Financing fees, such as leasing charges <br>
 9.A.D.M. or A.D.P. fees, which stands for “Additional Dealer Markup” and “Additional Dealer Price” </p>
 </div>
 
