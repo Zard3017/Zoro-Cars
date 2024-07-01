@@ -53,16 +53,37 @@ include_once("template/links.php");
  Yes, many new car models offer a variety of customization options, including color, interior features, and technology upgrades.</p>
 </div>
 
-<button type="button" class="collapsible"></button>
+<button type="button" class="collapsible">What should I do after buying a car from Aldair?</button>
 <div class="content">
-  <p> Our inventory will vary, but we currently don't have a selection available. 
-    If this changes, we can help you find what you are looking for. Contact us today to see how we can help!</p>
+  <p> A Sales Consultant will review the vehicle with you and make sure you’re familiar with the car’s specific features and technology.
+
+</p>
 </div>
 
-<button type="button" class="collapsible">Do you sell electric vehicles?</button>
+<button type="button" class="collapsible"></button>
 <div class="content">
-  <p> Our inventory will vary, but we currently don't have a selection available. 
-    If this changes, we can help you find what you are looking for. Contact us today to see how we can help!</p>
+  <p> If you're purchasing a used car, some fees to consider include:  
+
+1.Taxes 
+2.Title and registration fees 
+3.Emissions testing and/or state inspection fees 
+4.Transfer fees 
+5.Documentation fees, which is a fee from the dealership to process the car sale. The documentation fee is known by different names in different states. The documentation fee may also be referred to as an administrative fee, dealer application processing fee,
+ dealer conveyance fee, dealer documentary preparation service fee, dealer documentary service fee, dealer processing charge, dealer transfer service fee, 
+ delivery and handling fee, document preparation fee, document process charge, documentary fee, documentary preparation fee, documentary service, documentary service fee, 
+ documentary service charge, documentation & compliance fee, processing fee, processing service fee and/or service fee. <br><br>
+
+If you’re purchasing a new car, you might incur those fees as well, and will need to consider the following additional fees . You will not encounter these additional new car fees when purchasing a used vehicle from Enterprise Car Sales. 
+
+1.Destination fees 
+2.Car dealer advertising fees 
+3.Dealer preparation fees 
+4.Additional transportation or freight fees 
+5.Extended warranty fees 
+6.Maintenance plan fees 
+7.V.I.N. etching fees 
+8.Financing fees, such as leasing charges 
+9.A.D.M. or A.D.P. fees, which stands for “Additional Dealer Markup” and “Additional Dealer Price” </p>
 </div>
 
 <button type="button" class="collapsible">Do you sell electric vehicles?</button>
