@@ -47,7 +47,8 @@ $sql = "INSERT IGNORE INTO registration (fullname,email,message)
 VALUES('$fullname','$email','$message')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
+   // echo "New record created successfully";
+   //header("location:displaydata.php");
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
   }
