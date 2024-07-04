@@ -68,21 +68,10 @@ require_once("include/connect.php");
 
 
   ?>
-    <!--
-   
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-    -->
+   <td>
+    <button><a href="">Update</a></button>
+   <button><a href=""> Delete</a></button>
+</td>
   </tbody>
 </table>
     </div>
