@@ -57,6 +57,10 @@ require_once("include/connect.php");
       <td>'.$fullname.'</td>
       <td>'.$email.'</td>
       <td>'.$message.'</td>
+      <td>
+    <button class="btn btn-primary"><a href=""class="text-light">Update</a></button>
+   <button class="btn btn-danger"><a href=""class="text-light"> Delete</a></button>
+    </td>
     </tr>
   
   ';
@@ -68,10 +72,7 @@ require_once("include/connect.php");
 
 
   ?>
-   <td>
-    <button><a href="">Update</a></button>
-   <button><a href=""> Delete</a></button>
-</td>
+   
   </tbody>
 </table>
     </div>
