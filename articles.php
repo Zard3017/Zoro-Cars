@@ -51,5 +51,19 @@
 </html>
 
 <?php
+ echo "
+ <form method='post'>
+   <label for='fullname'>Full Name:</label><input type='text' name='fullname' value='$row[fullname]' required>
+   <br>
+   <label for='email'>Email:</label>
+   <input type='email' name='email' value='$row[email]' required>
+   <br>
+   <label for='message'>Message:</label>
+   <textarea name='message' required>$row[message]</textarea>
+   <br>
+   <input type='hidden' name='id' value='$row[id]'>
+   <input type='submit' name='submit' value='Update'>
+ </form>
+ ";
  include_once("template/footer.php")
     ?>

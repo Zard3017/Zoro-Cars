@@ -43,7 +43,7 @@ if(isset($_POST['Send'])){
     $message = mysqli_real_escape_string($conn, ($_POST["message"]));
 }
 
-$sql = "INSERT INTO registration (fullname,email,message)
+$sql = "INSERT IGNORE INTO registration (fullname,email,message)
 VALUES('$fullname','$email','$message')";
 
 if ($conn->query($sql) === TRUE) {
