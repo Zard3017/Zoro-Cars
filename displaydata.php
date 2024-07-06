@@ -1,6 +1,7 @@
 <?php
 include_once("template/nav.php");
 require_once("include/connect.php");
+include_once ("template/links.php");
  
     
 
@@ -26,34 +27,56 @@ require_once("include/connect.php");
       <th scope="col">ID</th>
       <th scope="col">Fullname</th>
       <th scope="col">Email</th>
-      <th scope="col">Message</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Address</th>
       <th scope="col">Operation</th>
     </tr>
   </thead>
   <tbody>
+    
+
+
+
+  </tbody>
+    </table>
+    </div>
 
   <?php
   
   //SELECT DATA FROM MY TABLE
 
   
-// Check if the key 'id' exists in the array before accessing it
 
 
   $sql = "SELECT * FROM registration";
   $result = $conn->query($sql);
-  if($result){
+  if(!$result){
+    die("Invalid query: " . $conn->error);
+  }
     
-    while($row = mysqli_fetch_assoc($result)){
+    while($row = $result->fetch_assoc()){
+      echo "
+      <tr>
+      <td>$row[id]</td>
+      <td>$row[fullname]</td>
+      <td>$row[email]</td>
+      <td>$row[phone]</td>
+      <td>$row[address]</td>
+      <td>$row[created_at]</td>
+      
+      <td><a href="update.php"class="btn btn-primary">Update</a></td>
+      <td><a href="delete.php"class="btn btn-danger">Delete</a></td>
+    </tr>
+      ";
 
         
-  $id=$row['$id'];
+  
   $fullname=$row['fullname'];
   $email=$row['email'];
   $message=$row['message'];
   echo'
    <tr>
-      <th scope="row">'.$id.'</th> 
+      
       <td>'.$fullname.'</td>
       <td>'.$email.'</td>
       <td>'.$message.'</td>

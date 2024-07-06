@@ -5,10 +5,10 @@ $username = "root";
 $password = "";
 $db_name="contactus";
 
-$fullname="fullname";
-$email="email";
-$message="message";
-$ID="UserID";
+//$fullname="fullname";
+//$email="email";
+//$message="message";
+//$id="id";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password ,$db_name);

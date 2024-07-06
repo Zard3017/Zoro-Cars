@@ -19,8 +19,10 @@ $db_name="contactus";
 
 $fullname="fullname";
 $email="email";
-$message="message";
-$ID="UserID";
+$phone="phone";
+$address="address";
+//$message="message";
+$id="id";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password ,$db_name);
@@ -40,11 +42,13 @@ echo "Connected successfully";
 if(isset($_POST['Send'])){
     $fullname = mysqli_real_escape_string($conn, ($_POST["fullname"]));
     $email = mysqli_real_escape_string($conn, ($_POST["email"]));
-    $message = mysqli_real_escape_string($conn, ($_POST["message"]));
+    $phone = mysqli_real_escape_string($conn, ($_POST["phone"]));
+    $address = mysqli_real_escape_string($conn, ($_POST["address"]));
+    //$message = mysqli_real_escape_string($conn, ($_POST["message"]));
 }
 
-$sql = "INSERT IGNORE INTO registration (fullname,email,message)
-VALUES('$fullname','$email','$message')";
+$sql = "INSERT IGNORE INTO registration (fullname,email,phone,address)
+VALUES('$fullname','$email','$phone','$address')";
 
 if ($conn->query($sql) === TRUE) {
    // echo "New record created successfully";
@@ -120,13 +124,23 @@ if ($conn->query($sql) === TRUE) {
             <span>Email</span>
         </div>
         <div class="inputBox">
-            <textarea name="message" required="required" id=""></textarea>
-            <span>Type your message...</span>
+            <input type="text" name="phone" required="required">
+            <span>Phone</span>
+        </div>
+        <div class="inputBox">
+            <input type="text" name="address" required="required">
+            <span>Address</span>
         </div>
         <div class="inputBox">
             <input type="submit" name="Send"  value="Send">
             
         </div>
+
+        <!--<div class="inputBox">
+            <textarea name="message" required="required" id=""></textarea>
+            <span>Type your message...</span>
+        </div> -->
+       
 
     </form>
  </div>
