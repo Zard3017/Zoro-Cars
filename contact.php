@@ -17,6 +17,7 @@ $username = "root";
 $password = "";
 $db_name="contactus";
 
+$id="id";
 $fullname="fullname";
 $email="email";
 $phone="phone";
