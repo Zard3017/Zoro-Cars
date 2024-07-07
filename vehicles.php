@@ -4,49 +4,56 @@ include_once("template/links.php");
    
 
 ?>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicles|Aldair</title>
     <link rel="stylesheet" href="CSS/vehicle.css">
 
-    <!--<header>
-        <div class="logo"><a href="#">Aldair</a>
-        </div>
-        <div class="menu">
-            <a href="#">
-                <ion-icon name="close"class="close"> </ion-icon>
-            </a>
-        </div>
-       
-        <div class="heading">
-            <ul>
-                <li><a  href="index.html" class="under">Home</a>  </li>
-                <li><a   href="sustainability.html" class="under">Sustainability</a>  </li>
-                <li><a   href="vehicles.html"  class="under">Vehicles</a>  </li>            
-                <li><a   href="design.html" class="under">Design</a>  </li>
-                <li><a    href="FAQs.html" class="under">FAQ</a></li>
-                <li><a   href="contact.html" class="under">Contact Us</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">Account</a>
-                    <div class="dropdown-content">
-                      <a href="login.html">Login</a>
-                      <a href="login.html">Sign Up</a>
-                    </div>
-                  </li>
-            </ul>
-        </div>
-       
-    </header>
--->
+</head>
+<body>
+    
 
 
-<div class="card" style="width: 25rem;">
-  <img src="images/718 GT4 with the Golden Touch ⭐️ (1).jpeg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <br>
-</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+
+
+<div class="service1">
+  <div class="card" style="width: 25rem;">
+    <img src="images/718 GT4 with the Golden Touch ⭐️ (1).jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <br>
+      </p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
   </div>
 </div>
+
+<div class="service2">
+  <div class="card" style="width: 25rem;">
+    <img src="images/718 GT4 with the Golden Touch ⭐️ (1).jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <br>
+      </p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>
+
+  <div class="service3" >
+  <div class="card" style="width: 25rem;">
+    <img src="images/718 GT4 with the Golden Touch ⭐️ (1).jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <br>
+      </p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  </div>
 
 
 
@@ -103,6 +110,8 @@ include_once("template/links.php");
         </div>
         
     </div>
+    </body>
+</html>
 
    
    
