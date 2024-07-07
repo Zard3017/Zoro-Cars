@@ -62,13 +62,19 @@ include_once("template/links.php");
         <h2>Are you looking for a car?Look no further. Buy a car now</h2>
         <p>Experience luxury, comfort, and safety with Aldair.</p>
         <a class="btn btn-lg btn-primary" href="vehicles.php">Buy a car now</a>
-      </div>
-      
+      </div>  
     </div>
+
+
     <div class="carousel-item">
     <div class="overlay-image">
       <img src="images/pexels-tyler-clemmensen-3877370-8380527.jpg" class="d-block w-100" c-img alt="...">
-      </div>
+      <div class="container1">
+        <h2>Are you looking for a car?Look no further. Buy a car now</h2>
+        <p>Experience luxury, comfort, and safety with Aldair.</p>
+        <a class="btn btn-lg btn-primary" href="vehicles.php">Buy a car now</a>
+      </div>  
+    </div>
     </div>
     <div class="carousel-item">
     <div class="overlay-image">
