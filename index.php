@@ -30,6 +30,14 @@ include_once("template/links.php");
      background-size: cover;
      
     }
+    .container1{
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding-bottom: 50px;
+      color: white;
+    }
 
     
   </style>
@@ -49,6 +57,11 @@ include_once("template/links.php");
     <div class="carousel-item active">
     <div class="overlay-image">
       <img src="images/pexels-saulo-leite-1491182-18360133.jpg" class="d-block w-100" c-img alt="...">
+      </div>
+      <div class="container1">
+        <h2>Are you looking for a car?Look no further. Buy a car now</h2>
+        <p>Experience luxury, comfort, and safety with Aldair.</p>
+        <a class="btn btn-lg btn-primary" href="vehicles.php">Buy a car now</a>
       </div>
       
     </div>
