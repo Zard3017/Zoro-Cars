@@ -23,7 +23,7 @@ $email="email";
 $phone="phone";
 $address="address";
 //$message="message";
-$id="id";
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password ,$db_name);

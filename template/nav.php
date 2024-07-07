@@ -15,10 +15,8 @@
             <li><a   href="articles.php" class="under">Articles</a>  </li>
             <li><a    href="FAQs.php" class="under">FAQ</a></li>
             <li><a   href="contact.php" class="under">Contact Us</a></li>  
-            <li><a href="viewdata.php" class="under">View Data</a> </li>
-            <li><a href="editdata.php" class="under">Edit Data</a> </li>
             <li><a href="displaydata.php" class="under">Display</a> </li>
-            <li><a href="delete.php" class="under">Delete</a></li>
+            <li><a href="update.php" class="under">Update</a> </li>
 
             
         </ul>

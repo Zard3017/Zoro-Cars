@@ -3,7 +3,17 @@ include_once("template/nav.php");
 require_once("include/connect.php");
 include_once ("template/links.php");
  
-    
+if(isset($_GET["DelId"])){
+  $DelId = mysqli_real_escape_string($conn, $_GET["DelId"]);
+
+  $delete_message = "DELETE FROM registration WHERE id='$DelId'";
+
+  if ($conn->query($delete_message) === TRUE) {
+      header("Location: displaydata.php");
+  } else {
+      echo "Error updating record: " . $conn->error;
+  }
+}    
 
 ?>
 
@@ -24,69 +34,63 @@ include_once ("template/links.php");
     <table class="table">
   <thead>
     <tr>
-      <th scope="col">ID</th>
-      <th scope="col">Fullname</th>
-      <th scope="col">Email</th>
-      <th scope="col">Phone</th>
-      <th scope="col">Address</th>
-      <th scope="col">Created At</th>
-      <th scope="col">Operation</th>
+      
+      <th >Fullname</th>
+      <th >Email</th>
+      <th >Phone</th>
+      <th >Address</th>
+      <th >Created At</th>
+      <th >Operation</th>
     </tr>
   </thead>
   <tbody>
 
   <?php
+
+  $selectdata= "SELECT * FROM registration ";
+  $sel_mes_res= $conn->query($selectdata);
+
+  if($sel_mes_res->num_rows> 0 ){
+    //output data for each row
+    while($sel_mes_row = $sel_mes_res->fetch_assoc()){
+
+      ?>
+      <tr>
+      
+      <td><?php print $sel_mes_row["fullname"]; ?></td>
+      <td><?php print $sel_mes_row["email"]; ?></td>
+      <td><?php print $sel_mes_row ["phone"]; ?></td>
+      <td><?php print $sel_mes_row["address"]; ?></td>
+      <td><?php print date('d-M-Y H:i', strtotime($sel_mes_row["created_at"])); ?></td>
+      <td><a href="update.php?id=<?php print $sel_mes_row["id"];?>" class="btn btn-success">Update</a></td>
+      <td><a href="?DelId=<?php print $sel_mes_row ["id"];?>" onclick="return confirm('Are you sure you want to delete this message from the database permanently?');" class="btn btn-danger">Delete</a></td>
+     
+      </tr>
+      <?php
+    }
+  }
+  
+  
+
+
+
   
   //SELECT DATA FROM MY TABLE
 
   
-// Check if the key 'id' exists in the array before accessing it
-
-
-  $sql = "SELECT * FROM registration";
-  $result = $conn->query($sql);
-  $id = isset($_GET['id']) ? $_GET['id'] : '';
-  if($result){
-    
-    while($row = mysqli_fetch_assoc($result)){
-
-        
- 
-  $fullname=$row['fullname'];
-  $email=$row['email'];
-  $phone=$row['phone'];
-  $address=$row['address'];
-  $created_at=$row['created_at'];
-  
-  echo'
-   <tr>
-      <th scope="row">'.$id.'</th> 
-      <td>'.$fullname.'</td>
-      <td>'.$email.'</td>
-      <td>'.$phone.'</td>
-      <td>'.$address.'</td>
-      <td>'.$created_at.'</td>
-
-      
-
-      <td>
-    <button class="btn btn-primary"><a href="update.php? updateid='.$id.'"class="text-light">Update</a></button>
-   <button class="btn btn-danger"><a href="delete.php"? deleteid='.$id.'
-   class="text-light"> Delete</a></button>
-    </td>
-    </tr>
-  
-  ';
-
-
-    }
-}
-
-
-
   ?>
    
   </tbody>
+  <thead>
+    <tr>
+      <th >Fullname</th>
+      <th >Email</th>
+      <th >Phone</th>
+      <th >Address</th>
+      <th >Created At</th>
+      <th >Operation</th>
+    </tr>
+  </thead>
 </table>
     </div>
 </body>
