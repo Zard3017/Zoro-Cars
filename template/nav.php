@@ -1,4 +1,5 @@
 <header>
+    <div class="navbar"></div>
     <div class="logo"><a href="#">Aldair</a>
     </div>
     <div class="menu">
@@ -10,8 +11,12 @@
         <ul>
             <li><a  href="index.php" class="under">Home</a>  </li>
             <li><a   href="sustainability.php" class="under">Sustainability</a>  </li>
-            <li><a   href="vehicles.php"  class="under">Vehicles</a>  </li>
-            
+            <li class="dropdown"><a   href="vehicles.php"  >Vehicles</a> 
+        <div class="dropdown-content">
+            <a href="vehicles.php">New Cars</a>
+            <a href="vehicles.php">Used Cars</a>
+        </div>
+        </li>
             <li><a   href="articles.php" class="under">Articles</a>  </li>
             <li><a    href="FAQs.php" class="under">FAQ</a></li>
             <li><a   href="contact.php" class="under">Contact Us</a></li>  
@@ -22,5 +27,6 @@
         </ul>
         
     </div>
+    
    
 </header>
