@@ -10,8 +10,6 @@ include_once("template/links.php");
 
 <?php
 
-
-
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -137,14 +135,9 @@ if ($conn->query($sql) === TRUE) {
             
         </div>
 
-        <!--<div class="inputBox">
-            <textarea name="message" required="required" id=""></textarea>
-            <span>Type your message...</span>
-        </div> -->
-       
-
     </form>
  </div>
+
      </div>
 
     </section>
