@@ -47,11 +47,18 @@
         button[type="submit"]:hover {
             background-color: green;
         }
+        h1{
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: auto;
+            font-weight: 300;
+        }
             
     </style>
 </head>
 <body>
-    <form>
+    <form action="articles.php" method="POST">
+        <h1>Sign Up</h1>
         <label for="fullname">Full Name:</label>
         <input type="text" id="fullname" name="fullname" required>
 
@@ -62,6 +69,8 @@
         <input type="password" id="password" name="password" required>
 
         <button type="submit">Sign Up</button>
+
+        <p>Already have an account? <a href="login.php">Login</a></p>
     </form>
 </body>
 </html>
