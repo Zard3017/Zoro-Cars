@@ -4,33 +4,26 @@
       <div class="col-md-3">
         <h4>About Us</h4>
         <ul>
-          <li><a href="#">Our Story</a></li>
-          <li><a href="#">Our Team</a></li>
+          <li><a href="index.php">Aldair</a></li>
+          <li><a href="contact.php">Customer Connect</a></li>
           <li><a href="#">Careers</a></li>
         </ul>
       </div>
       <div class="col-md-3">
         <h4>Buy a Car</h4>
         <ul>
-          <li><a href="#">Search Inventory</a></li>
+          <li><a href="vehicles.php">Search Inventory</a></li>
           <li><a href="#">Get a Quote</a></li>
-          <li><a href="#">Financing Options</a></li>
+          <li><a href="contact.php">Financing Options</a></li>
         </ul>
       </div>
-      <div class="col-md-3">
-        <h4>Sell a Car</h4>
-        <ul>
-          <li><a href="#">Get an Offer</a></li>
-          <li><a href="#">Trade-In Program</a></li>
-          <li><a href="#">Sell to Us</a></li>
-        </ul>
-      </div>
+      
       <div class="col-md-3">
         <h4>Resources</h4>
         <ul>
-          <li><a href="#">FAQs</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="faq.php">FAQs</a></li>
+          <li><a href="articles.php">Blog</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
         </ul>
       </div>
     </div>

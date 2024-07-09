@@ -137,9 +137,9 @@ In order to prepare the vehicle for use in the movie, Mercedes designers had to 
     </div>
   </div>
 </div>
-
-
-
+<?php
+include_once("footer.php");
+?>
   
  
 

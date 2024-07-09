@@ -228,7 +228,10 @@ include_once("template/links.php");
   </div>
 </div>
 
-
+<?php
+include_once("footer.php");
+?>
+  
    
     </body>
 </html>
