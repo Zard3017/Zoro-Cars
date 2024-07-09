@@ -1,3 +1,8 @@
+
+<?php
+include_once("include/connect.php");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,7 +63,9 @@
 </head>
 <body>
     <form action="articles.php" method="POST">
-        <h1>Sign Up</h1>
+      <h4>To access the articles</h4>  
+    <h1> Please Sign Up</h1>
+
         <label for="fullname">Full Name:</label>
         <input type="text" id="fullname" name="fullname" required>
 

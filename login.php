@@ -1,3 +1,8 @@
+<?php
+include_once("include/connect.php");
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,7 +63,8 @@
 </head>
 <body>
     <form action="articles.php" method="POST">
-        <h1>Log In</h1>
+       <h4>To access the articles</h4> 
+    <h1>Please Log In</h1>
        
         <label for="email">Email:</label>
         <input type="email" placeholder="Enter your email" id="email" name="email" required>
