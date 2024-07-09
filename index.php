@@ -70,9 +70,9 @@ include_once("template/links.php");
     <div class="overlay-image">
       <img src="images/pexels-tyler-clemmensen-3877370-8380527.jpg" class="d-block w-100" c-img alt="...">
       <div class="container1">
-        <h2>Are you looking for a car?Look no further. Buy a car now</h2>
+        <h2>Are you looking for a car?Look no further. Contact us</h2>
         <p>Experience luxury, comfort, and safety with Aldair.</p>
-        <a class="btn btn-lg btn-primary" href="vehicles.php">Buy a car now</a>
+        <a class="btn btn-lg btn-primary" href="contact.php">Contact us</a>
       </div>  
     </div>
     </div>
@@ -97,7 +97,7 @@ include_once("template/links.php");
              <title>Aldair</title>
              <div class="wrapper">
               <header style="background-color: white;">
-                <h1>Why Choose Us?</h1>
+                <h1 style="color: black;">Why Choose Us?</h1>
 
               </header>
               <section class="columns">

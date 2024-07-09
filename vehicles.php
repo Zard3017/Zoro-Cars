@@ -63,29 +63,72 @@ include_once("template/links.php");
 
     <div class="col">
       Column <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
+      <div class="card"  style="width: 17rem; ">
+      <img src="images/mercedes cla.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">  <button type="button" class="btn btn-secondary"
+        style="--bs-btn-padding-y: .10rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .50rem;">
+  2017
+</button>   Mercedes Benz CLA 180</h5><br>
+<h6>KES 3,500,000</h6>
+        <button type="button" class="btn btn-secondary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Automatic
+</button>
+        <p class="card-text"> powered by a 1,332 cc, 4-cylinder turbocharged engine that produces 134 hp and 200 Nm of torque.
+           The engine is mated to a 7G-DCT dual-clutch automatic.</p>
+        <a href="contact.php" class="btn btn-dark">Call now</a>
       </div>
+      <details>
+        <summary> More Details</summary>
+        <p>Year of manufacture - 2017 <br>
+      Current Location - Kenya<br>
+      Fuel Type - Petrol<br>
+      Transmission - Automatic<br>
+      Engine Capacity - 1,600 CC<br>
+      Drive - 2WD<br>
+      Color - White<br>
+      Mileage - 20,000 KM <br>
+      Horse Power - 122 HP<br>
+      Torque - 260Nm<br>
+      </p>
+      </details>
     </div>
   </div>
     </div>
 
     <div class="col">
       Column
-      <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
+      <div class="card"  style="width: 17rem; ">
+      <img src="images/mercedes cla.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">  <button type="button" class="btn btn-secondary"
+        style="--bs-btn-padding-y: .10rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .50rem;">
+  2017
+</button>   Mercedes Benz CLA 180</h5><br>
+<h6>KES 3,500,000</h6>
+        <button type="button" class="btn btn-secondary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Automatic
+</button>
+        <p class="card-text"> powered by a 1,332 cc, 4-cylinder turbocharged engine that produces 134 hp and 200 Nm of torque.
+           The engine is mated to a 7G-DCT dual-clutch automatic.</p>
+        <a href="contact.php" class="btn btn-dark">Call now</a>
       </div>
-    </div>
-  </div>
+      <details>
+        <summary> More Details</summary>
+        <p>Year of manufacture - 2017 <br>
+      Current Location - Kenya<br>
+      Fuel Type - Petrol<br>
+      Transmission - Automatic<br>
+      Engine Capacity - 1,600 CC<br>
+      Drive - 2WD<br>
+      Color - White<br>
+      Mileage - 20,000 KM <br>
+      Horse Power - 122 HP<br>
+      Torque - 260Nm<br>
+      </p>
+      </details>
     </div>
   </div>
 </div>
@@ -95,141 +138,44 @@ include_once("template/links.php");
   <div class="row">
     <div class="col">
       Column
-      <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
+      <div class="card"  style="width: 17rem; ">
+      <img src="images/mercedes cla.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">  <button type="button" class="btn btn-secondary"
+        style="--bs-btn-padding-y: .10rem; --bs-btn-padding-x: .3rem; --bs-btn-font-size: .50rem;">
+  2017
+</button>   Mercedes Benz CLA 180</h5><br>
+<h6>KES 3,500,000</h6>
+        <button type="button" class="btn btn-secondary"
+        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+  Automatic
+</button>
+        <p class="card-text"> powered by a 1,332 cc, 4-cylinder turbocharged engine that produces 134 hp and 200 Nm of torque.
+           The engine is mated to a 7G-DCT dual-clutch automatic.</p>
+        <a href="contact.php" class="btn btn-dark">Call now</a>
       </div>
+      <details>
+        <summary> More Details</summary>
+        <p>Year of manufacture - 2017 <br>
+      Current Location - Kenya<br>
+      Fuel Type - Petrol<br>
+      Transmission - Automatic<br>
+      Engine Capacity - 1,600 CC<br>
+      Drive - 2WD<br>
+      Color - White<br>
+      Mileage - 20,000 KM <br>
+      Horse Power - 122 HP<br>
+      Torque - 260Nm<br>
+      </p>
+      </details>
     </div>
   </div>
     </div>
 
-    <div class="col">
-      Column <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-    </div>
-
-    <div class="col">
-      Column
-      <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-    </div>
-  </div>
-</div>
-<br>
-
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-      Column
-      <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-    </div>
-
-    <div class="col">
-      Column <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-    </div>
-
-    <div class="col">
-      Column
-      <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-    </div>
-  </div>
-</div>
-<br>
-
-<div class="container text-center">
-  <div class="row">
-    <div class="col">
-      Column
-      <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-    </div>
-
-    <div class="col">
-      Column <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-    </div>
-
-    <div class="col">
-      Column
-      <div class="col-sm-6 mb-3 mb-sm-0">
-    <div class="card"  style="width: 17rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-    </div>
-  </div>
-</div>
+ 
 
 <?php
-include_once("footer.php");
+include_once("template/footer.php");
 ?>
   
    

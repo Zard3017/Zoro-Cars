@@ -61,7 +61,7 @@ if ($conn->query($sql) === TRUE) {
 
 
   
-   
+   <!--contact information-->
 <head>
     <style>
         body {
@@ -110,7 +110,7 @@ if ($conn->query($sql) === TRUE) {
         
         </div>
     </div>
-  
+  <!--contact form-->
  <div class="contactForm">
     <form  method = "POST">
         <h2>Send us a message</h2>

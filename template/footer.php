@@ -21,7 +21,7 @@
       <div class="col-md-3">
         <h4>Resources</h4>
         <ul>
-          <li><a href="faq.php">FAQs</a></li>
+          <li><a href="FAQs.php">FAQs</a></li>
           <li><a href="articles.php">Blog</a></li>
           <li><a href="contact.php">Contact Us</a></li>
         </ul>
