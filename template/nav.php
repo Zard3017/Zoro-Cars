@@ -10,10 +10,7 @@
     <div class="heading">
         <ul>
             <li><a  href="index.php" class="under">Home</a>  </li>
-            <li><a   href="sustainability.php" class="under">Sustainability</a>  </li>
-            <li class="dropdown"><a   href="vehicles.php"  >Vehicles</a> 
-        
-        </li>
+            <li ><a   href="vehicles.php"  >Vehicles</a> </li>
             <li><a   href="articles.php" class="under">Articles</a>  </li>
             <li><a    href="FAQs.php" class="under">FAQ</a></li>
             <li><a   href="contact.php" class="under">Contact Us</a></li>  
