@@ -16,6 +16,8 @@
             <li><a   href="contact.php" class="under">Contact Us</a></li>  
             <li><a href="displaydata.php" class="under">Display</a> </li>
             <li><a href="update.php" class="under">Update</a> </li>
+            <li><a href="signup.php" class="under">Sign Up</a> </li>
+
 
             
         </ul>
