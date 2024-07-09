@@ -55,11 +55,24 @@ The buyer of the car, the first nine-figure purchase, has not been disclosed.
 <div class="row">
   <div class="col-sm-6 mb-3 mb-sm-0">
     <div class="card"  style="width: 33rem; ">
-    <img src="images/pexels-ekam-juneja-61080223-17210413.jpg" class="card-img-top" alt="...">
+    <img src="images/mercedescab.webp" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h5 class="card-title">How many millions of miles can a car last?</h5>
+        <p class="card-text">A Mercedes-Benz 240D cab in service since 1988 has traveled 4.35 million miles.</p>
+        <details>
+            <summary>Read More</summary>
+            <p class="card-text">
+            How long do you keep your car, and how far do you drive it? Well, lessees usually say three years and anything between 20,000 to 25,000 miles. For others, however, the vehicle has to last ten years or longer for cost reasons alone. And then there are the real mileage guzzlers with a million or more miles on the clock.
+
+These are usually cabs, mostly from Mercedes-Benz, which is the case in a report from Grand Canary Island. According to Tenerife News, a W123 Mercedes 240D in the rather rare long version reached the milestone. The 17.6-foot-long saloon has been operating as a cab on the island since 1988. Up to seven passengers fit inside,
+ plus the driver. The 72-horsepower diesel pairs with a five-speed manual gearbox.
+ Behind the record-breaking Benz is a certain Domingo, who became known as "Dominguito" in Gran Canaria, Spain. According to Tenerife News, the long 240D is used in three shifts of eight hours each. That adds up to around 435 miles per day. The car has now clocked 4.35 million miles.
+ <br>
+ However, some parts are no longer original. According to the publication, with a mileage of 3,100 miles per week, the 240D requires up to 52 oil changes every year. In addition, there are fixed maintenance intervals. For example, the OM 616 engine is thoroughly checked every 621,371 miles. The current engine is only the second unit under the hood. A replacement one is already available if required.
+
+Dominguito passed the cab and the company to his son. In 2008, one of the drivers came up with the idea of extensively restoring the 240D and making it the company's flagship. The new boss let him do it.
+
+At that time, the car had a mileage of 2.4 million miles. The mileage has almost doubled since then. While the company made every effort to retain as many original parts as possible, they had to modernize the driver's seat and steering wheel. In addition, the passenger seats were reupholstered and covered.</p>
       </div>
     </div>
   </div>
@@ -125,32 +138,7 @@ In order to prepare the vehicle for use in the movie, Mercedes designers had to 
   </div>
 </div>
 
-<div class="card mb-3" style="width:57rem;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="images/image.png" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">
-        Recall wrap: Mercedes-Benz C-Class strikes airbag dramas</h5>
-        <p class="card-text">The latest Mercedes-Benz C-Class is now subject to a nationwide product safety recall, with more 1400 examples of the mid-size luxury sedan hit with potential airbag woes.</p>
-        <details>
-            <summary>Read More</summary>
-            <p class="card-text">
-           
 
-At the same time, a handful of larger Mercedes-Benz CLS sedans have been recalled due to potential software-related safety issues.
-In the first case, a total of 1465 examples of the fifth-generation (W206) 2023 Mercedes-Benz C-Class (model code 555) are being recalled due to concerns around the side airbag operation.
-“Due to operation of the seat back rest, the driver and passenger side airbag wiring harnesses may become damaged over time caused by seat adjustment,” said Mercedes-Benz in its recall notice.
-Mercedes-Benz says the deployment of the seat-mounted side airbags could therefore be impaired and, in the event of an accident, may not deploy as intended, which could increase the risk of injury or death to vehicle occupants.
-</p>
-        </details>
-        <p class="card-text"><small class="text-body-secondary">By Sev Genrik <br> 13 April 2023</small></p>
-      </div>
-    </div>
-  </div>
-</div>
 
   
  

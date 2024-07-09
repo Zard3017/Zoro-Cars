@@ -1,5 +1,28 @@
 <?php
 include_once("include/connect.php");
+
+$id="id";
+$email="email";
+$password="password";
+
+//insert data
+if(isset($_POST['send'])){
+    $email = mysqli_real_escape_string($conn, ($_POST["email"]));
+    $password = mysqli_real_escape_string($conn, ($_POST["password"]));
+    
+}
+
+$sql = "INSERT IGNORE INTO user(email,password)
+VALUES('$email','$password')";
+
+if ($conn->query($sql) === TRUE) {
+   // echo "New record created successfully";
+   //header("location:articles.php");
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
+  
+  $conn->close();
 ?>
 
 
@@ -62,7 +85,7 @@ include_once("include/connect.php");
     </style>
 </head>
 <body>
-    <form action="articles.php" method="POST">
+    <form  method="POST" action="articles.php">
        <h4>To access the articles</h4> 
     <h1>Please Log In</h1>
        
@@ -72,7 +95,7 @@ include_once("include/connect.php");
         <label for="password">Password:</label>
         <input type="password" placeholder="Enter your password" id="password" name="password" required>
 
-        <button type="submit">Login</button>
+        <button type="submit" name="send" >Login</button>
 
         <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
 

@@ -1,7 +1,34 @@
 
 <?php
 include_once("include/connect.php");
+
+$id="id";
+$fullname="fullname";
+$email="email";
+$password="password";
+
+//insert data
+if(isset($_POST['send'])){
+    $fullname = mysqli_real_escape_string($conn, ($_POST["fullname"]));
+    $email = mysqli_real_escape_string($conn, ($_POST["email"]));
+    $password = mysqli_real_escape_string($conn, ($_POST["password"]));
+    
+}
+
+$sql = "INSERT IGNORE INTO userinformation (fullname,email,password)
+VALUES('$fullname','$email','$password')";
+
+if ($conn->query($sql) === TRUE) {
+   // echo "New record created successfully";
+   //header("location:articles.php");
+  } else {
+    echo "Error: " . $sql . "<br>" . $conn->error;
+  }
+  
+  $conn->close();
 ?>
+
+
 
 <!DOCTYPE html>
 <html>
@@ -62,7 +89,7 @@ include_once("include/connect.php");
     </style>
 </head>
 <body>
-    <form action="articles.php" method="POST">
+    <form  method="POST" action="articles.php">
       <h4>To access the articles</h4>  
     <h1> Please Sign Up</h1>
 
@@ -75,7 +102,7 @@ include_once("include/connect.php");
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
 
-        <button type="submit">Sign Up</button>
+        <button type="submit" name="send"><a href="articles.php"></a>Sign Up</button>
 
         <p>Already have an account? <a href="login.php">Login</a></p>
     </form>
