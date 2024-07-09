@@ -32,6 +32,7 @@
             margin-bottom: 20px;
             border-radius: 10px;
             border: 1px solid #ccc;
+            width: 70%;
         }
 
         button[type="submit"] {
